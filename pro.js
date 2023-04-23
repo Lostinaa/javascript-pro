@@ -1,16 +1,20 @@
 
+//document.getElementById("counter").innerText=33
 
+  let countEr = document.getElementById("counter")
 
-//document.getElementById("counter").innerText=new
+  console.log(countEr)
+ let count =0
 
- /*function increment(){
+ function increment(){
+  count=count+2
+  document.getElementById("counter").innerText= count 
 
-    console.log("buttonclicker")
- } */
+    
+ } 
 
-   let claps = 0
+ 
 
-for(claps)
 
  
 
