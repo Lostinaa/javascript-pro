@@ -28,14 +28,14 @@ h1, h2{
   
     
    
-} #increment-btn{
+} #increment-btn, #save {
    background: rgba(59, 46, 84, 0.564);
-   color: rgba(241, 227, 227, 0.618); 
+   color: rgba(132, 137, 139, 0.618); 
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-style: inherit;
    text-transform: capitalize;
    font-size: 13px;
-  
+   margin:5px;
    box-shadow: 5px;
    border: 0.01em solid rgb(146, 146, 147);
    border-radius: 5px;
@@ -46,15 +46,14 @@ h1, h2{
 }
   @media (max-width:720px) {
     body{
-        background:rgb(189, 52, 52);
-        height:50%;
-        width:50%;
+        background:rgb(31, 29, 29);
+        
     }
     
 .container{
     position: absolute;
     height:40%;
-    top: 40%;
+    top: 30%;
     left:30%;
     display: flex;
     width:30%;
