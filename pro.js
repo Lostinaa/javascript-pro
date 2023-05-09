@@ -8,25 +8,21 @@ function increment(){
   document.getElementById("counter").innerText= count 
 } 
 */
-let greeting=hey
+let greeting=hello
 let name=dopy
 let text;
 let all;
+
  function save(){
-  text=document.getElementById("content").innerText
-    all=text + name
+  document.getElementById("new").textContent= "dopler";
    
-    console.log(all)
+
+   
+    
 
  } 
     save()
-function dope(){
-count= + 1 
-document.getElementById("counter").innerText=count
- 
-}
 
- 
 
 
 
