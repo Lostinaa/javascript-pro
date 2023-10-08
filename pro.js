@@ -1,27 +1,22 @@
 
 //document.getElementById("counter").innerText=33
-
-  //let countEr = document.getElementById("counter")
-/*let count =0
+  let countEl =document.getElementById("par")
+  let countEr = document.getElementById("counter")
+let count =0
 function increment(){
   count=count+2
-  document.getElementById("counter").innerText= count 
+ countEr.innerText= count 
 } 
-*/
-let greeting=hello
-let name=dopy
-let text;
-let all;
 
- function save(){
-  document.getElementById("new").textContent= "dopler";
-   
 
-   
-    
+function save(){
+   countEl.innerText=count
+  console.log(countEl)
+}
 
- } 
-    save()
+
+  
+
 
 
 
